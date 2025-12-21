@@ -28,7 +28,7 @@ jobs:
 
       - name: Run preprocessing script
         run: |
-          python preprocessing/automate_Nama.py
+          python preprocessing/automate.py
 
       - name: Upload preprocessing artifacts
         uses: actions/upload-artifact@v4
